@@ -109,6 +109,11 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
+
+.btn-outline-light{
+  background: #1abc9c00 !important;
+}
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -2690,25 +2695,26 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #1abc9c;
-  border-color: #1abc9c;
+  color: #64ffda;
+  border-color: #64ffda;
 }
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  color: #000000;
+  background-color: #1CFFC9;
+  border-color: #1CFFC9;
+  opacity: 0.6;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.5);
+  box-shadow: 0 0 0 0.4rem rgba(26, 188, 156, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #1abc9c;
+  color: #64ffda;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #64ffda;
+  border-color: #64ffda;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.5);
@@ -10050,9 +10056,15 @@ h3 {
   color: #fff !important;
 }
 
+div.relative {
+  position: relative;
+  left: 100px;
+}
+
+
 .btn-xl {
-  padding: 1rem 1.75rem;
-  font-size: 1.25rem;
+  padding: 0.6rem 1.25rem;
+  font-size: 1.00rem;
 }
 
 .btn-social {
@@ -10155,7 +10167,7 @@ h3 {
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(3rem + 64px);
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
